@@ -1,6 +1,5 @@
-// Code your solution in this file
-function findMatching(collection) {
-  for (const user of collection) {
-  console.log(user);
-}
+function findMatching (list, name) {
+  return list.filter(function (driverName) {
+    return driverName.toLowerCase() === name.toLowerCase();
+  });
 }
