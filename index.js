@@ -11,6 +11,8 @@ function fuzzyMatch(list, partialName) {
   });
 }
 
-function matchName() {
-  
+function matchName(list, name) {
+  return list.filter(function (driverName) {
+    
+  });
 }
